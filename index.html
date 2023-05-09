@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <input type="number" placeholder="Hr" id="hour">
+    <input type="number" placeholder="Mn" id="minute">
+    <input type="number" placeholder="Ss" id="second">
+    <br><br>
+  <button onclick="countDown()" id="btn">START</button>
+
+
+
+    <script>
+        second.value=second.value;
+        minute.value=minute.value;
+
+
+        const countDown=()=>{
+          let x= setTimeout(countDown, 1000)
+            second.value --
+            if(second.value==0 && minute.value==0 && hour.value==00){
+             minute.value++
+             clearTimeout(x)
+            }
+
+            if(second.value==0){
+                minute.value--
+            }
+
+            if(second.value < 0){
+            second.value=59
+            }
+
+            if(minute.value==0 && hour.value!=0){
+                hour.value--
+                minute.value=59
+                second.value=59
+            }  if(hour.value==0 && minute.value==0){
+                hour.value==""
+                minute.value==""
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-image: url(z.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#hour{
+    width: 7pc;
+    height: 12vh;
+    margin-left: 22pc;
+    margin-top: 15pc;
+    font-size:5pc;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(210, 227, 253);
+}
+
+
+#minute{
+    width: 8pc;
+    height: 12vh;
+    margin-left: 4pc;
+    margin-top: 15pc;
+    font-size:5pc;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(210, 227, 253);
+}
+
+
+#second{
+    width: 8pc;
+    height: 12vh;
+    margin-left: 4pc;
+    margin-top: 15pc;
+    font-size:5pc;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btn{
+    margin-left: 25pc;
+    margin-top: 5pc;
+    height: 10vh;
+    width: 9pc;
+    margin-left: 35pc;
+    background-color: antiquewhite;
+    font-weight: bolder;
+    font-size: 2pc;
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
